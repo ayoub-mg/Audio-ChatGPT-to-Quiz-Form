@@ -8,7 +8,7 @@ An app that creates a Google form Quiz from ChatGPT response obtained from an Au
 <html>
 <body>
   
-  <iframe src="https://drive.google.com/file/d/1W8VYkVUrzUGvIF-I9ylQ8P2m3dSl1uhc/view?usp=drive_link" ></iframe>
+  <iframe src="https://drive.google.com/file/d/1W8VYkVUrzUGvIF-I9ylQ8P2m3dSl1uhc/preview" width="640" height="480" allow="autoplay"></iframe>
   
   <!--aloow full screen add tag -->
   
