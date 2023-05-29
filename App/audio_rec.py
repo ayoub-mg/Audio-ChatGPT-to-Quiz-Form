@@ -41,6 +41,7 @@ def main():
     st.title("Audio ChatGPT To Quiz Form")
 
     duration = st.slider("Recording Duration (seconds)", min_value=1, max_value=10, value=5)
+    n = st.slider("Number of Quiz Questions ", min_value=1, max_value=20, value=10)
     filename = st.text_input("Enter the filename to save the audio", "audio.wav")
 
 
@@ -56,15 +57,15 @@ def main():
         st.success("Transcription:")
         st.write(transcription)   
         st.info("Generating form...")
-        Link = form_generator(transcription)
+        Link = form_generator(transcription,n)
         st.success("Link to the form:")
         st.write(Link)
 
 
 
-def form_generator(text):
-    openai.api_key = "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"
-    content = text + """ create the quiz with 10 questions with multiple choice answers in the same format as following and in the end say finished : 
+def form_generator(text,n):
+    openai.api_key = API_KEY
+    content = text + f""" The quiz should contain {n} questions with multiple choice answers in the same format as the following, and in the end write finished : 
         Title of quiz : "quiz on ..." 
     Question 1 : ....
         a.  
@@ -94,7 +95,7 @@ def form_generator(text):
 
     q = []
 
-    for i in range(len(questions)):
+    for i in range(n):
         q.append({
             "createItem": {
                 "item": {
