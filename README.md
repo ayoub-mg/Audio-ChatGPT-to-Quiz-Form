@@ -5,9 +5,5 @@ An app that creates a Google form Quiz from ChatGPT response obtained from an Au
 **Author** : MARZOUG Ayoub.
 
   
-
-  
-
-
-Uploading ProjetMarzoug.mp4…
+ProjetMarzoug.mp4
 
