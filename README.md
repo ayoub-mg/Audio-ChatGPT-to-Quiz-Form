@@ -6,8 +6,12 @@ An app that creates a Google form Quiz from ChatGPT response obtained from an Au
 
   
 
+https://github.com/ayoub-mg/Audio-ChatGPT-to-Quiz-Form/assets/92301593/5f890fd3-175c-4b10-82ad-406b1522e20b
 
 
-https://github.com/ayoub-mg/Audio-ChatGPT-to-Quiz-Form/assets/92301593/3c6b1e47-1c20-4a1f-a20d-e333a5021a62
+
+
+
+
 
 
