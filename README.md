@@ -1,6 +1,6 @@
 # Audio Quiz Generator 
 
-A powerful tool that leverages the GPT-3.5 language model to create quizzes on any topic of your choice, based on au audion prompt input. This application is built using Python and Streamlit, making it easy to create, customize, and share quizzes with others.
+A powerful tool that leverages the GPT-3.5 language model to create quizzes on any topic of your choice, based on an audio prompt input. This application is built using Python and Streamlit, making it easy to create, customize, and share quizzes with others.
 
 
 **Author** : MARZOUG Ayoub.
@@ -77,7 +77,7 @@ You now have the API key and organization ID required for the Audio Quiz Generat
 Open the `audio_rec.py` file and add the following in line 16 :
 
 ```
- API_KEY = <yout-token>
+ API_KEY = <your-token>
 ```
 
 ## Executing the App
