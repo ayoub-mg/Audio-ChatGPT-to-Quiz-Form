@@ -1,16 +1,13 @@
 # Audio-ChatGPT-to-Quiz-Form
 
-An app that creates a Google form Quiz from ChatGPT response obtained from an Audio prompt input.
+A powerful tool that leverages the GPT-3.5 language model to create quizzes on any topic of your choice, based on au audion prompt input. This application is built using Python and Streamlit, making it easy to create, customize, and share quizzes with others.
+
 
 **Author** : MARZOUG Ayoub.
 
   
 
 https://github.com/ayoub-mg/Audio-ChatGPT-to-Quiz-Form/assets/92301593/5f890fd3-175c-4b10-82ad-406b1522e20b
-
-# Exam Generator using GPT-3.5 and Streamlit
-
-Welcome to the Exam Generator, a powerful tool that leverages the GPT-3.5 language model to create quizzes on any topic of your choice. This application is built using Python and Streamlit, making it easy to create, customize, and share quizzes with others.
 
 ## Table of Contents
 
@@ -24,7 +21,7 @@ Welcome to the Exam Generator, a powerful tool that leverages the GPT-3.5 langua
 
 ## Requirements
 
-To use the Exam Generator, you need the following:
+To use the Quiz Generator, you need the following:
 
 - Python 3.10 or higher
 - An OpenAI API key to access GPT-3.5
@@ -34,27 +31,27 @@ To use the Exam Generator, you need the following:
 1. Clone the repository to your local machine:
 
 ```
-git clone https://github.com/alexfdez1010/exam-generator.git
+git clone https://github.com/ayoub-mg/Audio-ChatGPT-to-Quiz-Form.git
 ```
 
 2. Change to the project directory:
 
 ```
-cd exam-generator
+cd Audio-ChatGPT-to-Quiz-Form
 ```
 
 3. Create a virtual environment and activate it:
 
 ```
-python3 -m venv venv
-source venv/bin/activate
+python3 -m venv ayoub
+source ayoub/bin/activate
 ```
 
 Alternatively, you can use `conda` to create a virtual environment:
 
 ```
-conda create -n exam-generator python=3.9
-conda activate exam-generator
+conda create -n ayoub python=3.9
+conda activate ayoub
 ```
 
 4. Install the required packages from `requirements.txt`:
@@ -73,22 +70,14 @@ To obtain the necessary API key and organization from OpenAI, follow these steps
 4. Click "Create new secret key" and note down the generated API key (you would not see the key again).
 5. On the same page, find your organization ID under the "Settings" section.
 
-You now have the API key and organization ID required for the Exam Generator.
+You now have the API key and organization ID required for the Audio Quiz Generator.
 
-## Setting Secrets
+## Setting Tokens
 
-Create new directory `.streamlit` in the root directory of the project and create a new file `secrets.toml` inside it.
-
-```
-mkdir .streamlit
-touch .streamlit/secrets.toml
-```
-
-Open the `secrets.toml` file and add the following lines:
+Open the `audio_rec.py` file and add the following in line 16 :
 
 ```
-OPENAI_TOKEN = <yout-token>
-OPENAI_ORG = <your-org>
+ API_KEY = <yout-token>
 ```
 
 ## Executing the App
@@ -96,14 +85,10 @@ OPENAI_ORG = <your-org>
 After installing dependencies and setting secrets, execute the Exam Generator app by running:
 
 ```
-streamlit run main.py
+streamlit run audio_rec.py
 ```
 
-The Exam Generator app should now be accessible in your web browser at `http://localhost:8501`.
-
-## Contributing
-
-We welcome contributions to improve the Exam Generator. If you'd like to contribute, please fork the repository and create a pull request with your proposed changes. We'll review and merge the changes as appropriate.
+The Quiz Generator app should now be accessible in your web browser at `http://localhost:8501`.
 
 ## License
 
