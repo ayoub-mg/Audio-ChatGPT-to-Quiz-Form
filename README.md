@@ -1,4 +1,4 @@
-# Audio-ChatGPT-to-Quiz-Form
+# Audio Quiz Generator 
 
 A powerful tool that leverages the GPT-3.5 language model to create quizzes on any topic of your choice, based on au audion prompt input. This application is built using Python and Streamlit, making it easy to create, customize, and share quizzes with others.
 
@@ -89,14 +89,3 @@ streamlit run audio_rec.py
 ```
 
 The Quiz Generator app should now be accessible in your web browser at `http://localhost:8501`.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
-
-
-
-
-
-
