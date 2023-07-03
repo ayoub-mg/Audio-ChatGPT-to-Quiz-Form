@@ -7,8 +7,6 @@ A powerful tool that leverages the GPT-3.5 language model to create quizzes on a
 
   
 
-https://github.com/ayoub-mg/Audio-ChatGPT-to-Quiz-Form/assets/92301593/5f890fd3-175c-4b10-82ad-406b1522e20b
-
 ## Table of Contents
 
 - [Requirements](#requirements)
